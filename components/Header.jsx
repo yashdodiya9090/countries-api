@@ -9,7 +9,7 @@ export default function Header({ theam }) {
     <header className={`header-container ${isDark ? "dark" : ""}`}>
       <div className="header-content">
         <h2 className="title">
-          <a href="/">Where in the world? hii</a>
+          <a href="/">Where in the world?</a>
         </h2>
         <p className="theme-changer" onClick={() => {
           setIsDark(!isDark)
